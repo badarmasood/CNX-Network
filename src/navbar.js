@@ -1,16 +1,14 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 
+import Button from "@mui/material/Button";
+import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import IconLabelTabs from "./Tabs";
 import Whitepaper from "./pages/Whitepaper";
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
   const [showTabs, setShowTabs] = useState(false);
-
-  if (showTabs == true) {
-    <Whitepaper />;
-  }
 
   return (
     <>
@@ -61,13 +59,22 @@ const Navbar = () => {
                 </li>
               </ul>
               <form class="d-flex">
-                <a
-                  class="btn  btn-style btn-style-border"
+                <Button
+                  className="btn btn-style "
                   type="submit"
+                  endIcon={<KeyboardArrowDownIcon />}
                   onClick={(e) => e.onchange(setShowTabs(true))}
                 >
                   Utility Network
-                </a>
+                </Button>
+
+                {/* <Button
+                  variant="outlined"
+                  endIcon={<SendIcon />}
+                  onClick={(e) => e.onchange(setShowTabs(true))}
+                >
+                  Send
+                </Button> */}
               </form>
             </div>
           </div>

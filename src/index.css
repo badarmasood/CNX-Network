@@ -132,7 +132,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
 }
 
 .adManager h1,
@@ -147,8 +146,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
-
 }
 
 .CnxConnect h1,
@@ -165,8 +162,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
- 
-
 }
 
 .CoinX h1,
@@ -183,8 +178,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-
 }
 
 .MetaChat h1,
@@ -200,8 +193,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-
 }
 
 .NodeJS h1,
@@ -217,8 +208,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-
 }
 
 .VPN h1,
@@ -234,8 +223,6 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
-
 }
 
 .WalletX h1,
@@ -275,8 +262,7 @@ p {
 }
 
 /*-------------------------------------------------------------- #About --------------------------------------------------------------*/
-  .about
-  .content {
+.about .content {
   background-color: #f6f9ff;
   padding: 40px;
 }
@@ -340,7 +326,7 @@ p {
 
 .table100 .ps__rail-y::before {
   content: "";
-  
+
   display: block;
   position: absolute;
   background-color: #ebebeb;
@@ -377,7 +363,6 @@ p {
   width: 1366px;
   margin: 0 auto;
 }
-
 
 .wrap-table100 {
   width: 1170px;
@@ -422,24 +407,17 @@ td {
   padding-bottom: 16px;
 }
 
-
 .table100-body {
   max-height: 585px;
   overflow: auto;
 }
 
-
-
-
 .table100.ver1 td {
-  
   font-size: 20px;
   font-weight: 400;
   color: #000000;
   line-height: 1.4;
 }
-
-
 
 /*---------------------------------------------*/
 
@@ -485,18 +463,17 @@ p {
   width: 15rem;
 }
 
-
 /* =======================================Team Page=========================================== */
 /**********************************/
 /********** Team #1 Style *********/
 /**********************************/
-.MyBorder{
-    height: 280px;
-    position: relative;
-    width: 260px;
-    background-color: rgb(110, 110, 110);
-    border-width: 60px;
-    border-radius: 2rem !important;
+.MyBorder {
+  height: 280px;
+  position: relative;
+  width: 260px;
+  background-color: rgb(110, 110, 110);
+  border-width: 60px;
+  border-radius: 2rem !important;
 }
 .social-link {
   width: 30px;
