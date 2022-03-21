@@ -6,6 +6,7 @@ const Blockchain = () => {
   return (
     <>
       <Navbar />
+      <h1>Blockchain</h1>
     </>
   );
 };

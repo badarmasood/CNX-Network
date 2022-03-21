@@ -467,11 +467,14 @@ p {
 /**********************************/
 /********** Team #1 Style *********/
 /**********************************/
+.CoreTeam h1 p {
+  text-decoration-color: white !important;
+}
 .MyBorder {
   height: 280px;
   position: relative;
   width: 260px;
-  background-color: rgb(110, 110, 110);
+  background-color: rgb(29, 27, 27);
   border-width: 60px;
   border-radius: 2rem !important;
 }

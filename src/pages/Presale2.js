@@ -10,12 +10,12 @@ const Presale2 = () => {
   return (
     <>
       <Navbar />
-      <h1>Presale Page</h1>
 
       <div
         style={{
           backgroundColor: "black",
           height: "100%",
+          padding: ".6rem",
         }}
         // class="jumbotron bg-cover text-white"
       >
