@@ -6,7 +6,6 @@ const Blockchain = () => {
   return (
     <>
       <Navbar />
-      <IconLabelTabs />
     </>
   );
 };
