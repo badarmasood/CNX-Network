@@ -2,6 +2,8 @@ import React from "react";
 import Navbar from "../navbar";
 import IconLabelTabs from "../Tabs";
 import Table from "../images/InevestmentTable.png";
+import FormPage from "../FormPageKYC";
+
 const Presale1 = () => {
   return (
     <>
@@ -134,13 +136,19 @@ const Presale2 = () => {
     </>
   );
 };
+const Presale3 = () => {
+  return <></>;
+};
 
 const Presale = () => {
   return (
     <>
       <Navbar />
       <h1>Presale Page</h1>
+
+      <Presale1 />
       <Presale2 />
+      <FormPage />
     </>
   );
 };
