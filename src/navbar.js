@@ -54,7 +54,7 @@ const Navi = () => {
                 </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink class="nav-link" to="/Presale">
+                <NavLink class="nav-link " to="/Presale">
                   Pre-sale
                 </NavLink>
               </li>
@@ -62,12 +62,16 @@ const Navi = () => {
 
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
               <li
-                class="nav-item  rounded-pill py-2 px-5"
-                style={{ border: "0.2rem solid #cc7e00" }}
+                class="nav-item  rounded-pill py-2"
+                style={{ border: "0.2rem solid #cc7e00  ", fontSize: "26" }}
               >
-                <NavLink class="nav-link text-white" to="/Utilitynetwork">
+                <NavLink
+                  class="nav-link text-white"
+                  style={{ fontSize: "30", padding: 0 }}
+                  to="/Utilitynetwork"
+                >
                   Utility Network
-                  <ExpandMoreIcon fontSize="large" />
+                  {/* <ExpandMoreIcon fontSize="large" /> */}
                 </NavLink>
               </li>
             </ul>

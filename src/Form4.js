@@ -20,7 +20,7 @@ export default function Form4() {
             <div class="my-5">
               <h1 class="my-5 fw-bolder text-white ">Payment Successful</h1>
               <p class="lead text-white fs-4 ">
-                After the payment you will receive an wmail with the login
+                After the payment you will receive an email with the login
                 details for WalletX. There you can see your coins you have
                 bought during the presale. After the payment you will receive an
                 wmail with the login details for WalletX. There you can see your

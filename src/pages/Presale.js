@@ -27,13 +27,16 @@ const Presale1 = () => {
             <Link to="/Presale/Presale2">
               <button
                 type="button"
-                class="btn btn-primary btn-lg primary rounded-pill px-4 mx-3  "
+                class="btn btn-primary btn-lg primary rounded-pill px-5 mx-3 py-3 "
               >
                 Invest Now
               </button>
             </Link>
           </div>
 
+          <h2 class="fw-bolder text-white d-flex flex-start">
+            Investment rewards
+          </h2>
           <div
             class="col-lg-12 d-flex justify-content-center my-4"
             data-aos="zoom-out"

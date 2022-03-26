@@ -57,7 +57,7 @@ const CoreTeam = () => {
                             icon={faLinkedin}
                             size="3x"
                             color="white"
-                          />{" "}
+                          />
                         </a>
                       </li>
                       <li class="list-inline-item mx-4">

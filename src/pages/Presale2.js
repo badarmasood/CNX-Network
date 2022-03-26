@@ -23,7 +23,7 @@ const Presale2 = () => {
           <h1 class="fw-bolder text-white">
             Choose your amount you want to Invest
           </h1>
-          <p class="lead text-white">
+          <p class=" text-white">
             After purchasing you will receive the instructions with how to get
             your assets in WalletX
           </p>
@@ -44,7 +44,13 @@ const Presale2 = () => {
           </div>
           <Link to="/Presale/Presale2/Form1">
             <div class=" d-flex justify-content-center">
-              <button type="button" class="btn btn-primary btn-lg mt-5">
+              {/* <button type="button" class="btn btn-primary btn-lg mt-5">
+                Continue
+              </button> */}
+              <button
+                type="button"
+                class="btn btn-primary btn-lg primary rounded-pill px-5 my-5 py-3 "
+              >
                 Continue
               </button>
             </div>

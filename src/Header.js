@@ -9,8 +9,12 @@ const Header = () => {
           <div class="row h-100 align-items-center">
             <div class="col-12 text-center upper-img">
               <img src={headerlogo} alt="heroimg" className="img-circle" />
-              <h1 class="fw-bolder display-3">CNX-Network</h1>
-              <p class="lead ">The Future of Blockchain Technology</p>
+              <h1 class="fw-bold " style={{ fontSize: 30 }}>
+                CNX-Network
+              </h1>
+              <p class="" style={{ fontSize: 16 }}>
+                The Future of Blockchain Technology
+              </p>
             </div>
           </div>
         </div>
@@ -23,10 +27,13 @@ const Header = () => {
           <div class="row gx-5 align-items-center justify-content-start">
             <div class="col-lg-6 col-xl-5 col-xxl-3">
               <div class="my-5 text-center text-xl-start">
-                <h1 class="display-2 fw-bolder text-white  mb-2">
+                <h1
+                  class="display-2 fw-bold text-white  mb-2"
+                  style={{ fontSize: 60 }}
+                >
                   First Mining ICO Token Start Up
                 </h1>
-                <p class="lead fw-normal text-white-50 mb-4">
+                <p class="fw-normal text-white mb-4" style={{ fontSize: 20 }}>
                   Regarded as a synonym to cryptocurrency blockchain is much
                   more than a payment option
                 </p>
@@ -44,13 +51,13 @@ const Header = () => {
                     class="btn  btn-style btn-style-border  justify-content-sm-center "
                     type="submit"
                   >
-                  FIND  MORE
+                    FIND MORE
                   </a>
                   <a
                     class="btn  btn-style btn-style-border  justify-content-sm-center "
                     type="submit"
                   >
-                    WHITEPAPER
+                    WHITE PAPER
                   </a>
                 </div>
               </div>
