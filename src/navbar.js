@@ -5,6 +5,7 @@ import Button from "@mui/material/Button";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import IconLabelTabs from "./Tabs";
 import Whitepaper from "./pages/Whitepaper";
+import headerlogo from "../src/images/CX_Logo.png";
 
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const Navi = () => {
@@ -16,8 +17,15 @@ const Navi = () => {
     <section className="navbar-bg">
       <nav class="navbar navbar-expand-lg  ">
         <div class="container">
-          <a class="navbar-brand" href="#">
-            CNX-Network
+          <a class="navbar-brand fw-bold " href="">
+            <span className="logoBrand">
+              <img
+                src={headerlogo}
+                alt="heroimg"
+                style={{ height: 50, width: 50 }}
+              />
+              CNX-Network
+            </span>
           </a>
           <button
             class="navbar-toggler"

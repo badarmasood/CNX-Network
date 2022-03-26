@@ -14,7 +14,7 @@ import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 const CoreTeam = () => {
   return (
     <>
-      <div class="bg-dark CoreTeam">
+      <div class="bg-black CoreTeam">
         <div class="container ">
           <div class="row pb-5 ">
             <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
@@ -23,21 +23,13 @@ const CoreTeam = () => {
                 <div class="card-body p-0">
                   <div class="border border-light border-4 MyBorder "></div>
                   <div class="p-4 text-white">
-                    <h3
-                      class="mb-0 text-white
-
-"
-                    >
+                    <h3 class="mb-0 text-white" style={{ fontSize: 18 }}>
                       Full Name
                     </h3>
-                    <p
-                      class=" text-white
-
-"
-                    >
+                    <p class="text-white" style={{ fontSize: 14 }}>
                       CEO - Consultant
                     </p>
-                    <p class="">
+                    <p class="" style={{ fontSize: 14 }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
@@ -89,9 +81,13 @@ const CoreTeam = () => {
                 <div class="card-body p-0">
                   <div class="border border-light border-4 MyBorder "></div>
                   <div class="p-4">
-                    <h3 class="mb-0 text-white">Full Name</h3>
-                    <p class=" text-white">CEO - Consultant</p>
-                    <p class="text-white">
+                    <h3 class="mb-0 text-white" style={{ fontSize: 18 }}>
+                      Full Name
+                    </h3>
+                    <p class=" text-white" style={{ fontSize: 14 }}>
+                      CEO - Consultant
+                    </p>
+                    <p class="text-white" style={{ fontSize: 14 }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
@@ -139,9 +135,13 @@ const CoreTeam = () => {
                 <div class="card-body p-0">
                   <div class="border border-light border-4 MyBorder "></div>
                   <div class="p-4">
-                    <h3 class="mb-0 text-white">Full Name</h3>
-                    <p class=" text-white">CEO - Consultant</p>
-                    <p class="text-white">
+                    <h3 class="mb-0 text-white" style={{ fontSize: 18 }}>
+                      Full Name
+                    </h3>
+                    <p class=" text-white" style={{ fontSize: 14 }}>
+                      CEO - Consultant
+                    </p>
+                    <p class="text-white" style={{ fontSize: 14 }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown
@@ -189,9 +189,13 @@ const CoreTeam = () => {
                 <div class="card-body p-0">
                   <div class="border border-light border-4 MyBorder "></div>
                   <div class="p-4">
-                    <h3 class="mb-0 text-white">Full Name</h3>
-                    <p class=" text-white">CEO - Consultant</p>
-                    <p class="text-white">
+                    <h3 class="mb-0 text-white" style={{ fontSize: 18 }}>
+                      Full Name
+                    </h3>
+                    <p class=" text-white" style={{ fontSize: 14 }}>
+                      CEO - Consultant
+                    </p>
+                    <p class="text-white" style={{ fontSize: 14 }}>
                       Lorem Ipsum is simply dummy text of the printing and
                       typesetting industry. Lorem Ipsum has been the industry's
                       standard dummy text ever since the 1500s, when an unknown

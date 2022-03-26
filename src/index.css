@@ -37,7 +37,9 @@ h6 {
 
 /* --------------------------------- navbar css style starts 
                         -------------------------------------------------------*/
-
+.logoBrand:hover {
+  color: var(--primary-color) !important;
+}
 .navbar-bg {
   background-color: var(--bgcolor);
   padding: 2rem 0;
@@ -55,7 +57,7 @@ h6 {
 }
 
 .navbar li a {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   /* font-weight: 600; */
   position: relative;
   padding-left: 1rem;
