@@ -1,0 +1,88 @@
+@use "../../../master";
+.hero-section {
+  position: relative;
+  padding: 60px 16px;
+  text-align: center;
+  &::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: url(../../../assets/hero-bg.png);
+    background-size: 750px;
+    background-position: top;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    opacity: 0.6;
+  }
+  .deco {
+    position: absolute;
+    top: 10px;
+    &.deco-left {
+      left: -300px;
+      width: 500px;
+      @media screen and (max-width: 1194px) {
+        left: -325px;
+      }
+      @media screen and (max-width: 763px) {
+        width: 250px;
+        left: -200px;
+      }
+    }
+    &.deco-right {
+      right: -70px;
+      width: 260px;
+      @media screen and (max-width: 763px) {
+        width: 140px;
+        right: -100px;
+      }
+    }
+  }
+  .logo-box {
+    width: 190px;
+    margin: 0 auto;
+    margin-top: 50px;
+    img {
+      width: 100%;
+    }
+    @media screen and (max-width: 763px) {
+      width: 110px;
+    }
+  }
+  h1 {
+    margin: 10px 0;
+    font-size: 50px;
+    @media screen and (max-width: 763px) {
+      font-size: 30px;
+    }
+  }
+  h6 {
+    font-size: 25px;
+    font-weight: 400;
+    @media screen and (max-width: 763px) {
+      font-size: 17px;
+    }
+  }
+  button {
+    cursor: pointer;
+    margin-top: 20px;
+    width: 190px;
+    max-width: 100%;
+    border: 1px solid master.$seconday-color;
+    transition: 0.3s all;
+    background: transparent;
+    border-radius: 40px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    &:hover {
+      background: master.$seconday-color;
+    }
+    @media screen and (max-width: 763px) {
+      font-size: 15px;
+    }
+  }
+}

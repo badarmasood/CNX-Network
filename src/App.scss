@@ -1,0 +1,66 @@
+@use "master";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+html,
+body {
+  min-height: 95%;
+}
+body {
+  overflow-x: hidden;
+  margin: 0;
+  background: master.$primary-color;
+  color: #fff;
+  a {
+    text-decoration: none;
+  }
+  img {
+    max-width: 100%;
+  }
+  .section-title {
+    position: relative;
+    text-transform: uppercase;
+    font-size: 40px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    &::before {
+      content: "";
+      position: absolute;
+      background: master.$seconday-color;
+      height: 100%;
+      width: 12px;
+      left: 0;
+      @media screen and (max-width: 763px) {
+        width: 7px;
+      }
+    }
+    @media screen and (max-width: 763px) {
+      font-size: 26px;
+      padding-left: 20px;
+    }
+  }
+  .section-tagline {
+    font-size: 25px;
+    opacity: 0.85;
+    margin-bottom: 20px;
+    @media screen and (max-width: 763px) {
+      font-size: 16px;
+    }
+  }
+}

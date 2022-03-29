@@ -1,0 +1,80 @@
+@use "../../../../../master";
+.roadmap {
+  position: relative;
+  margin: 40px 0;
+  .deco {
+    position: absolute;
+    top: -130px;
+    right: -200px;
+    width: 460px;
+  }
+  // overflow: hidden;
+  .card {
+    min-height: 650px;
+    position: relative;
+    background: #131313;
+    width: 95%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 2px solid master.$seconday-color;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    .underline {
+      background: master.$seconday-color;
+      height: 2px;
+      width: 4%;
+      position: absolute;
+      left: -4%;
+      &.underline-2 {
+        left: auto;
+        right: -4%;
+      }
+      @media screen and (max-width: 991px) {
+        display: none;
+      }
+    }
+    .completed {
+      text-transform: uppercase;
+      font-size: 40px;
+      position: absolute;
+      right: -100px;
+      color: #4e4e4e;
+      font-weight: bold;
+      transform: rotate(-90deg);
+    }
+    h4 {
+      color: #a66710;
+      font-size: 26px;
+      margin: 10px 0;
+      @media screen and (max-width: 763px) {
+        font-size: 20px;
+      }
+    }
+    li {
+      list-style: none;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      font-weight: 700;
+      font-size: 15px;
+      margin: 3px 0;
+      @media screen and (max-width: 763px) {
+        font-size: 13px;
+        max-width: 90%;
+      }
+      svg {
+        position: relative;
+        bottom: 2px;
+        color: #1f916d;
+        width: 22px;
+        margin-right: 5px;
+      }
+    }
+    @media screen and (max-width: 763px) {
+      width: 90%;
+    }
+  }
+}

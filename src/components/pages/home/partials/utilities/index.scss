@@ -1,0 +1,84 @@
+@use "../../../../../master";
+.utilties {
+  position: relative;
+  padding: 50px 0;
+  padding-bottom: 100px;
+  .deco {
+    position: absolute;
+    &.deco-left {
+      left: -210px;
+      width: 400px;
+      bottom: -20px;
+    }
+    &.deco-right {
+      top: -220px;
+      right: -280px;
+      width: 460px;
+    }
+  }
+  .card-wrapper {
+    position: relative;
+    margin: 30px 0;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    .card {
+      position: relative;
+      width: 85%;
+      .content {
+        width: 100%;
+        background: linear-gradient(to left, #552f20, #000);
+        border: 2px solid master.$seconday-color;
+        padding: 40px;
+        border-radius: 40px;
+        z-index: 99;
+        h3 {
+          font-size: 28px;
+          font-weight: bold;
+          margin-bottom: 20px;
+          @media screen and (max-width: 763px) {
+            font-size: 20px;
+          }
+        }
+        p {
+          color: #6e7a83;
+          font-size: 16px;
+          font-weight: 600;
+          @media screen and (max-width: 763px) {
+            font-size: 14px;
+          }
+        }
+        @media screen and (max-width: 763px) {
+          padding: 40px 25px;
+        }
+      }
+    }
+    &::before {
+      content: "";
+      background: #000;
+      width: 85%;
+      height: 90%;
+      position: absolute;
+      border: 2px solid master.$seconday-color;
+      border-radius: 40px;
+      left: 25px;
+      top: 30px;
+      z-index: 0;
+    }
+    &.bottom {
+      justify-content: flex-end;
+      &::before {
+        left: auto;
+        right: -30px;
+      }
+      @media screen and (max-width: 1194px) {
+        justify-content: flex-start;
+        &::before {
+          left: 25px;
+          top: 30px;
+          right: auto;
+        }
+      }
+    }
+  }
+}
