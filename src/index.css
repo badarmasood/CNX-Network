@@ -133,8 +133,9 @@ p {
                         -------------------------------------------------------*/
 
 .adManager {
-  height: 75vh;
-  min-height: 500px;
+  height: 100vh;
+  /* min-height: 500px; */
+
   background-image: url("./images/Laptop1.png");
   background-size: cover;
   background-position: center;
@@ -147,8 +148,10 @@ p {
 }
 
 .CnxConnect {
-  height: 75vh;
+  height: 100vh;
   min-height: 500px;
+
+  margin-top: 0px;
   background-image: url("./images/CnxConnect.png");
   background-size: cover;
   background-position: center;
@@ -163,8 +166,9 @@ p {
 /* =========================================================================== */
 
 .CoinX {
-  height: 75vh;
+  height: 100vh;
   min-height: 500px;
+
   background-image: url("./images/CoinX.png");
   background-size: cover;
   background-position: center;
@@ -179,7 +183,7 @@ p {
 /* =========================================================================== */
 
 .MetaChat {
-  height: 75vh;
+  height: 100vh;
   min-height: 500px;
   background-image: url("./images/MetaChat.png");
   background-size: cover;
@@ -194,7 +198,7 @@ p {
 /* =========================================================================== */
 
 .NodeJS {
-  height: 75vh;
+  height: 100vh;
   min-height: 500px;
   background-image: url("./images/NodeJS.png");
   background-size: cover;
@@ -249,24 +253,6 @@ p {
 
 /* --------------------------------- Footer Section Starts  
                                                 -------------------------------------------------------*/
-.Footer {
-  height: 20vh;
-  min-height: 250px;
-  /* background-image: url("../public/images/BG.png"); */
-  background-color: rgb(10, 10, 10);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.Footer h2 {
-  color: white;
-  margin-top: 2rem;
-}
-.img-circle_Footer {
-  height: 9rem;
-  width: 9rem;
-}
 
 /*-------------------------------------------------------------- #About --------------------------------------------------------------*/
 .about .content {

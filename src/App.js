@@ -19,6 +19,8 @@ import Form2 from "./components/MyComponents/Forms/Form2";
 import Form3 from "./components/MyComponents/Forms/Form3";
 import Form4 from "./components/MyComponents/Forms/Form4";
 
+import IconLabelTabs from "./components/MyComponents/Tabs";
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -39,6 +41,7 @@ function App() {
       <Route path="/Presale/Presale2/Form2" element={<Form2 />}></Route>
       <Route path="/Presale/Presale2/Form3" element={<Form3 />}></Route>
       <Route path="/Presale/Presale2/Form4" element={<Form4 />}></Route>
+      <Route path="/Utilitynetwork" element={<IconLabelTabs />}></Route>
     </Routes>
   );
 }
