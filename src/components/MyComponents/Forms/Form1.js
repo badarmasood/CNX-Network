@@ -37,52 +37,76 @@ export default function Form1() {
                   <div class="form-group text-light">
                     <div class="d-flex align-items-center">
                       <EmailOutlinedIcon fontSize="large" color="white" />
-                      <label for="username" class="fs-4 px-3 ">
+                      <label
+                        for="username"
+                        class="px-3"
+                        style={{ fontSize: "1.5rem" }}
+                      >
                         Full name
                       </label>
                     </div>
 
-                    <hr />
+                    <hr style={{ borderTop: "2px solid white" }} />
                     <div class="d-flex align-items-center">
                       <EmailOutlinedIcon fontSize="large" color="white" />
-                      <label for="username" class="fs-4 px-3 ">
+                      <label
+                        for="username"
+                        class="fs-4 px-3 "
+                        style={{ fontSize: "1.5rem" }}
+                      >
                         Date of Birth
                       </label>
                     </div>
 
-                    <hr />
+                    <hr style={{ borderTop: "2px solid white" }} />
                     <div class="d-flex align-items-center">
                       <EmailOutlinedIcon fontSize="large" color="white" />
-                      <label for="username" class="fs-4 px-3 ">
+                      <label
+                        for="username"
+                        class="fs-4 px-3 "
+                        style={{ fontSize: "1.5rem" }}
+                      >
                         Email
                       </label>
                     </div>
 
-                    <hr />
+                    <hr style={{ borderTop: "2px solid white" }} />
                     <div class="d-flex align-items-center">
                       <EmailOutlinedIcon fontSize="large" color="white" />
-                      <label for="username" class="fs-4 px-3 ">
+                      <label
+                        for="username"
+                        class="fs-4 px-3 "
+                        style={{ fontSize: "1.5rem" }}
+                      >
                         Email Confirmation
                       </label>
                     </div>
 
-                    <hr />
+                    <hr style={{ borderTop: "2px solid white" }} />
                     <div class="d-flex align-items-center">
                       <EmailOutlinedIcon fontSize="large" color="white" />
-                      <label for="username" class="fs-4 px-3 ">
+                      <label
+                        for="username"
+                        class="fs-4 px-3 "
+                        style={{ fontSize: "1.5rem" }}
+                      >
                         Address + Zipcode
                       </label>
                     </div>
 
-                    <hr />
+                    <hr style={{ borderTop: "2px solid white" }} />
                     <div class="d-flex align-items-center">
                       <EmailOutlinedIcon fontSize="large" color="white" />
-                      <label for="username" class="fs-4 px-3 ">
+                      <label
+                        for="username"
+                        class="fs-4 px-3 "
+                        style={{ fontSize: "1.5rem" }}
+                      >
                         Landline
                       </label>
                     </div>
 
-                    <hr />
+                    <hr style={{ borderTop: "2px solid white" }} />
                     {/* 
                     <label for="username" class="fs-4 ">
                       Date of Birth{" "}

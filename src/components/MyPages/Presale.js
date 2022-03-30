@@ -38,11 +38,11 @@ const Presale1 = () => {
             </Link>
           </div>
 
-          <h2 class="fw-bolder text-white d-flex flex-start">
+          {/* <h2 class="fw-bolder text-white d-flex flex-start">
             Investment rewards
-          </h2>
+          </h2> */}
           <div
-            class="col-lg-12 d-flex justify-content-center my-4"
+            class="col-lg-12 d-flex justify-content-center my-5"
             data-aos="zoom-out"
             data-aos-delay="200"
           >

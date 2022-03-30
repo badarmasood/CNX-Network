@@ -36,7 +36,7 @@ const Presale2 = () => {
               style={{
                 width: "18rem",
                 height: "9rem",
-                backgroundColor: "white",
+                backgroundColor: "#191A19",
               }}
             >
               <div class="card-body d-flex align-items-center justify-content-center">

@@ -51,24 +51,35 @@ const SectionTwo = () => {
               data-aos-delay="200"
             >
               <div class="content">
-                <h1 class="fw-bolder text-white display-2 my-2 ">
+                <h1
+                  class="fw-bolder text-white display-2 my-2 "
+                  style={{
+                    fontWeight: "bold",
+                    fontSize: "6rem",
+                  }}
+                >
                   First Wallet ICO Token Start Up
                 </h1>
-                <p class="lead fw-normal text-white my-3">
+                <p
+                  class=" fw-normal text-white my-3"
+                  style={{
+                    fontWeight: "normal",
+                    fontSize: "1.5rem",
+                  }}
+                >
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                   est, ut esse a labore aliquam beatae expedita. Blanditiis
-                  impedit numquam libero molestiae et fugit cupiditate,
-                  quibusdam expedita, maiores eaque quisquam. Lore
+                  impedit numquam libero molestiae et fugit.
                 </p>
                 <div class="d-grid gap-3 d-flex justify-content-sm-center justify-content-xl-start align-items-center my-5">
                   <button
-                    class="btn  btn-style btn-style-border  border-primary  justify-content-sm-center "
+                    class="btn  btn-style2 btn-style-border  border-primary  justify-content-sm-center "
                     type="submit"
                   >
                     Apple
                   </button>
                   <button
-                    class="btn  btn-style btn-style-border border-success justify-content-sm-center "
+                    class="btn  btn-style2 btn-style-border border-success justify-content-sm-center "
                     type="submit"
                   >
                     Android

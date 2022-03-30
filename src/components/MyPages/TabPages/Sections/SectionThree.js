@@ -6,19 +6,31 @@ import React from "react";
 const SectionThree = () => {
   return (
     <>
-      <header class="section3">
-        <div class="container  ">
-          <div class="row ">
-            <div class="col-12 text-center upper-img py-5">
-              <h1 class="fw-bolder text-dark">
+      <header class="section3 h-100">
+        <div class="container">
+          <div class="row  ">
+            <div class="col-12 text-center upper-img pt-5">
+              <h1
+                class="fw-bolder text-dark"
+                style={{
+                  fontWeight: "bold",
+                  fontSize: "3rem",
+                }}
+              >
                 Trade with Confidence. Trade WalletX.
               </h1>
-              <p class="lead text-dark mb-5 ">
-                Secure, safe and for a normal price.{" "}
+              <p
+                class="lead text-dark mb-5 "
+                style={{
+                  fontWeight: "normal",
+                  fontSize: "2rem",
+                }}
+              >
+                Secure, safe and for a normal price.
               </p>
 
               <div class="table100 ver1  m-b-110">
-                <div class="table100-body js-pscroll">
+                <div class="table100-body">
                   <table>
                     <tbody>
                       <tr class="row100 body">

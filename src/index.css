@@ -69,8 +69,8 @@ h6 {
 .navbar li a:hover {
   color: var(--primary-color) !important;
 }
-
-.btn-style {
+*/
+.btn-style2 {
   width: 16rem;
 
   border-radius: 2rem;
@@ -80,27 +80,27 @@ h6 {
   font-size: 1.5rem;
 }
 
-.btn-style:first-child {
+.btn-style2:first-child {
   margin-right: 2rem;
 }
 
-.btn-style:hover {
+.btn-style2:hover {
   border: 0.2rem solid var(--primary-color);
   background-color: transparent;
   color: var(--primary-color);
 }
 
-.btn-style-border {
+.btn-style2-border {
   border: 0.2rem solid #cc7e00;
   background-color: transparent;
   color: #fff;
 }
 
-.btn-style-border:hover {
+.btn-style2-border:hover {
   color: #fff;
   border-color: #000;
   text-transform: capitalize;
-} */
+}
 /* --------------------------------- Navbar ends  
                         -------------------------------------------------------*/
 
@@ -255,6 +255,7 @@ p {
                                                 -------------------------------------------------------*/
 
 /*-------------------------------------------------------------- #About --------------------------------------------------------------*/
+/* 
 .about .content {
   background-color: #f6f9ff;
   padding: 40px;
@@ -296,19 +297,13 @@ p {
 }
 .about .btn-read-more:hover i {
   transform: translateX(5px);
-}
+} */
 
 /* ======================================================================================== */
 /* ------------------------------------ */
 
 /*//////////////////////////////////////////////////////////////////
 [ Scroll bar ]*/
-.js-pscroll {
-  position: relative;
-  overflow: hidden;
-  padding-top: 2%;
-  padding-bottom: 2%;
-}
 
 .table100 .ps__rail-y {
   width: 9px;
@@ -501,6 +496,6 @@ p {
   position: relative;
   width: 18rem;
   border-color: white;
-  border-width: 60px;
+  border-width: 10rem;
   border-radius: 2rem !important;
 }
