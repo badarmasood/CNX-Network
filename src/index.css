@@ -499,3 +499,13 @@ p {
   border-width: 10rem;
   border-radius: 2rem !important;
 }
+
+@media only screen and (max-width: 1024px) {
+  .FixNav {
+    position: fixed;
+    z-index: 9999999999;
+    background-color: #000;
+    width: 100%;
+
+}
+ }

@@ -11,14 +11,15 @@ export default function Header() {
     setSideBar(!sideBar);
   };
   return (
-    <header>
+    <header className="FixNav">
       <Container>
-        <div className="content">
+        <div className="content ">
           <div className="logo-box">
             <img src={Logo} alt="CNX-Network" />
             <span>CNX-Network</span>
           </div>
           <ul
+            class="navbar"
             className={
               sideBar ? "header-menu header-menu-active" : "header-menu"
             }

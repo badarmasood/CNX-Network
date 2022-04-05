@@ -47,22 +47,22 @@ export default function Footer() {
             <Grid item xs={12} md={4}>
               <ul className="social" data-aos="fade-up" data-aos-delay="100">
                 <li>
-                  <Facebook />
+                  <Facebook fontSize="large" />
                 </li>
                 <li>
-                  <Instagram />
+                  <Instagram fontSize="large" />
                 </li>
                 <li>
-                  <Telegram />
+                  <Telegram fontSize="large" />
                 </li>
                 <li>
-                  <LinkedIn />
+                  <LinkedIn fontSize="large" />
                 </li>
                 <li>
-                  <Twitter />
+                  <Twitter fontSize="large" />
                 </li>
                 <li>
-                  <YouTube />
+                  <YouTube fontSize="large" />
                 </li>
               </ul>
             </Grid>
