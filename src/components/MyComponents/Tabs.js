@@ -75,7 +75,7 @@ export default function IconLabelTabs() {
     <>
       <Header />
       <Box sx={{ width: "100%" }}>
-        <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+        <Box sx={{ borderBottom: 5, borderColor: "divider" }}>
           <Tabs
             value={value}
             onChange={handleChange}

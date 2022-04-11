@@ -51,22 +51,10 @@ const SectionTwo = () => {
               data-aos-delay="200"
             >
               <div class="content">
-                <h1
-                  class="fw-bolder text-white display-2 my-2 "
-                  style={{
-                    fontWeight: "bold",
-                    fontSize: "6rem",
-                  }}
-                >
+                <h1 class="fw-bolder text-whit my-2 ">
                   First Wallet ICO Token Start Up
                 </h1>
-                <p
-                  class=" fw-normal text-white my-3"
-                  style={{
-                    fontWeight: "normal",
-                    fontSize: "1.5rem",
-                  }}
-                >
+                <p class=" fw-normal text-white my-3">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
                   est, ut esse a labore aliquam beatae expedita. Blanditiis
                   impedit numquam libero molestiae et fugit.

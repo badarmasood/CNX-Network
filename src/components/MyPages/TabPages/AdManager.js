@@ -22,14 +22,14 @@ const AdManager = () => {
             position: "relative",
           }}
         >
-          <div class=" mt-5 ">
+          <div class=" mt-2">
             <div class="row ">
               <div class="col-lg-12 text-center ">
                 <h1
                   class="fw-bolder text-dark"
                   style={{
                     fontWeight: "bold",
-                    fontSize: "5rem",
+                    // fontSize: "5rem",
                   }}
                 >
                   AdManager
@@ -38,7 +38,7 @@ const AdManager = () => {
                   class="text-dark"
                   style={{
                     fontWeight: "normal",
-                    fontSize: "1.5rem",
+                    // fontSize: "1.5rem",
                   }}
                 >
                   Advertising has never been easier before
@@ -46,13 +46,13 @@ const AdManager = () => {
                 <div class="btn-toolbar justify-content-center">
                   <button
                     type="button"
-                    class="btn btn-primary btn-lg primary rounded-pill px-4 mx-3  "
+                    class="btn btn-primary  primary rounded-pill px-4 mx-3  "
                   >
                     Download Now
                   </button>
                   <button
                     type="button"
-                    class="btn btn-light  btn-lg rounded-pill px-4  mx-3"
+                    class="btn btn-light  rounded-pill px-4  mx-3"
                   >
                     More information
                   </button>

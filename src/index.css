@@ -17,9 +17,9 @@
   --main-text-color: #333333;
 }
 */
-html {
+/* html {
   font-size: 62.5%;
-}
+} */
 
 a {
   text-decoration: none;
@@ -71,13 +71,13 @@ h6 {
 }
 */
 .btn-style2 {
-  width: 16rem;
+  width: 12rem;
 
   border-radius: 2rem;
   color: #fff;
   background-color: var(--primary-color);
   text-transform: capitalize;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .btn-style2:first-child {
@@ -500,7 +500,7 @@ p {
   border-radius: 2rem !important;
 }
 
-@media only screen and (max-width: 1024px) {
+/* @media only screen and (max-width: 1024px) {
   .FixNav {
     position: fixed;
     z-index: 9999999999;
@@ -508,4 +508,4 @@ p {
     width: 100%;
 
 }
- }
+ } */
