@@ -21,6 +21,8 @@ import Form4 from "./components/MyComponents/Forms/Form4";
 
 import IconLabelTabs from "./components/MyComponents/Tabs";
 
+import Investment from "./components/MyPages/PresaleComps/Investment/investment";
+
 function App() {
   useEffect(() => {
     AOS.init({
@@ -35,6 +37,8 @@ function App() {
       <Route path="/Blockchain" element={<Blockchain />}></Route>
       <Route path="/Team" element={<Team />}></Route>
       <Route path="/Presale" element={<Presale />}></Route>
+      <Route path="/Investment" element={<Investment />}></Route>
+
       <Route path="/Presale/Presale2" element={<Presale2 />}></Route>
       <Route path="/Presale/Presale2/Form1" element={<Form1 />}></Route>
 

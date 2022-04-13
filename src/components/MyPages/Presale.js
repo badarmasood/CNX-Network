@@ -15,7 +15,7 @@ const Presale1 = () => {
     <>
       <section>
         <div class="container">
-          <div class=" py-3 bg-red ">
+          <div class=" py-3  ">
             <h3 class="text-white">
               Become an investor. The pre-sale is live.
             </h3>
@@ -28,37 +28,48 @@ const Presale1 = () => {
           </div>
           <div class="row w-100">
             <div class="col-md-3">
-              <div
-                class="card border-secondary border border-2 mb-3 bg-dark"
-                style={{
-                  maxWidth: "18rem",
-                  minHeight: "300px",
-                  position: "relative",
-                }}
-              >
-                <h1
-                  class="card-header bg-transparent  "
-                  style={{
-                    border: "none",
-                  }}
-                >
-                  $ 100,-
-                </h1>
-                <div class="card-body text-success">
-                  <h5 class="card-title ">Pack 1:</h5>
-                  <p class="card-text ">Free VPN for life time</p>
-                  <p class="card-text ">+10% for CNX-Miners</p>
-                </div>
+              <Link to="/Investment">
                 <div
-                  class="card-footer bg-transparent "
+                  class="card border-secondary border border-2 mb-3 bg-dark"
                   style={{
-                    border: "none",
+                    maxWidth: "18rem",
+                    minHeight: "300px",
+                    position: "relative",
                   }}
                 >
-                  12.500 CNX
+                  <h1
+                    class="card-header bg-transparent  "
+                    style={{
+                      border: "none",
+                    }}
+                  >
+                    $ 100,-
+                  </h1>
+
+                  <div class="card-body text-success">
+                    <h5 class="card-title ">Pack 1:</h5>
+                    <p class="card-text ">Free VPN for life time</p>
+                    <p class="card-text ">+10% for CNX-Miners</p>
+                  </div>
+                  <div
+                    class="card-footer bg-transparent "
+                    style={{
+                      border: "none",
+                    }}
+                  >
+                    12.500 CNX
+                  </div>
                 </div>
+              </Link>
+              <div class="btn-toolbar my-4">
+                <Link to="/Presale/Presale2">
+                  <button type="button" class="btn btn-secondary">
+                    Custom price Investment
+                  </button>
+                </Link>
               </div>
             </div>
+
             <div class="col-md-3">
               <div
                 class="card border-secondary border border-2 mb-3 bg-dark"
@@ -187,16 +198,16 @@ const Presale = () => {
 //     {/* <a href="#" role="button" class="btn btn-primary px-5">
 //             See All Features
 //           </a> */}
-//     <div class="btn-toolbar justify-content-center my-4">
-//       <Link to="/Presale/Presale2">
-//         <button
-//           type="button"
-//           class="btn btn-primary btn-lg primary rounded-pill px-5 mx-3 py-3 "
-//         >
-//           Invest Now
-//         </button>
-//       </Link>
-//     </div>
+// <div class="btn-toolbar justify-content-center my-4">
+//   <Link to="/Presale/Presale2">
+//     <button
+//       type="button"
+//       class="btn btn-primary btn-lg primary rounded-pill px-5 mx-3 py-3 "
+//     >
+//       Invest Now
+//     </button>
+//   </Link>
+// </div>
 
 //     {/* <h2 class="fw-bolder text-white d-flex flex-start">
 //             Investment rewards
