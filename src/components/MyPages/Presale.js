@@ -3,7 +3,6 @@ import React from "react";
 // import IconLabelTabs from "../Tabs";
 
 // import Table from "../images/InevestmentTable.png";
-import Table from "../../images/InevestmentTable.png";
 
 // import FormPage from "../FormPageKYC";
 
@@ -64,7 +63,7 @@ const Presale1 = () => {
               <div class="btn-toolbar my-4">
                 <Link to="/Presale/Presale2">
                   <button type="button" class="btn btn-secondary">
-                    Custom price Investment
+                    Custom price
                   </button>
                 </Link>
               </div>

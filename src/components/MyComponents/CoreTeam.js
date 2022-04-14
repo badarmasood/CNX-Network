@@ -67,7 +67,7 @@ const CoreTeam = () => {
                             icon={faTwitter}
                             size="2x"
                             color="white"
-                          />{" "}
+                          />
                         </a>
                       </li>
                     </ul>

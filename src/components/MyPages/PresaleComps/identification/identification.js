@@ -3,7 +3,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../../../partials/header";
 import "./investment.css";
-const PresaleInvestment = () => {
+const PresaleIdentification = () => {
   return (
     <>
       <section>
@@ -73,7 +73,7 @@ const PresaleInvestment = () => {
                         color: "black",
                       }}
                     >
-                      Investment Form
+                      Identification
                     </h3>
                     <div style={{ padding: "24px 30px" }}>
                       <p class="text-dark">
@@ -85,96 +85,66 @@ const PresaleInvestment = () => {
                     </div>
                     <form method="POST">
                       <div class="form-row">
-                        <div class="name">First Name</div>
+                        <div class="name">Passport Frontside</div>
                         <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                            placeholder="Enter your first name"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Last Name</div>
-                        <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                            placeholder="Enter your Last name"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Country</div>
-                        <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                            placeholder="Country"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">City</div>
-                        <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                            placeholder="City"
-                          />
-                        </div>
-                      </div>
-                      <div class="form-row">
-                        <div class="name">Address</div>
-                        <div class="value">
-                          <input
-                            class="input--style-6"
-                            type="text"
-                            name="full_name"
-                            placeholder="Enter your street name"
-                          />
-                        </div>
-                      </div>
-                      <div class="">
-                        <div style={{ padding: "24px 30px" }}>
-                          <p
-                            class="text-dark "
-                            style={{ paddingBottom: "30px" }}
-                          >
-                            Terms and Conditions
-                          </p>
-                          <div class="form-outline mb-4">
-                            <textarea
-                              class="form-control"
-                              rows="6"
-                              // placeholder="Message sent to the employer"
-                            >
-                              Please enter some information about yourself so we
-                              can know more about you. According to law we have
-                              to do a full KYC with costumers. After buying the
-                              coins , you can collect them on Wallet X Please
-                              enter some information about yourseld so we can
-                              know more about you. According to law we have to
-                              do a full KYC with costumers. After buying the
-                              coins , you can collect them on Wallet X
-                            </textarea>
+                          <div class="input-group js-input-file d-flex align-items-center ">
+                            <input
+                              class="input-file"
+                              type="file"
+                              name="file_cv"
+                              id="file"
+                            />
+                            <label class="label--file" for="file">
+                              Upload file +
+                            </label>
+                            <span class="input-file__info">
+                              1 file(s) Uploaded
+                            </span>
                           </div>
-                          <p
-                            class="text-dark "
-                            style={{ paddingBottom: "30px" }}
-                          >
-                            You have signed the Terms and Conditions
-                          </p>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="name">Passport Backside</div>
+                        <div class="value">
+                          <div class="input-group js-input-file d-flex align-items-center ">
+                            <input
+                              class="input-file"
+                              type="file"
+                              name="file_cv"
+                              id="file"
+                            />
+                            <label class="label--file" for="file">
+                              Upload file +
+                            </label>
+                            <span class="input-file__info">
+                              0 file(s) Uploaded
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="name">Selfie</div>
+                        <div class="value">
+                          <div class="input-group js-input-file d-flex align-items-center ">
+                            <input
+                              class="input-file"
+                              type="file"
+                              name="file_cv"
+                              id="file"
+                            />
+                            <label class="label--file" for="file">
+                              Upload file +
+                            </label>
+                            <span class="input-file__info">
+                              0 file(s) Uploaded
+                            </span>
+                          </div>
                         </div>
                       </div>
                     </form>
                   </div>
                   <div class="card-footer d-flex justify-content-end">
-                    <Link to="/Identification">
+                    <Link to="/Payment">
                       <button class="btn btn-primary" type="submit">
                         Continue
                       </button>
@@ -190,12 +160,12 @@ const PresaleInvestment = () => {
   );
 };
 
-const Investment = () => {
+const Identification = () => {
   return (
     <>
       <Header />
-      <PresaleInvestment />
+      <PresaleIdentification />
     </>
   );
 };
-export default Investment;
+export default Identification;
