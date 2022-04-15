@@ -24,6 +24,7 @@ import IconLabelTabs from "./components/MyComponents/Tabs";
 import Investment from "./components/MyPages/PresaleComps/Investment/investment";
 import Identification from "./components/MyPages/PresaleComps/identification/identification";
 import Payment from "./components/MyPages/PresaleComps/payment/payment";
+import PaymentSuccessfull from "./components/MyPages/PresaleComps/paymentSuccessful/paymentSuccessfull";
 
 function App() {
   useEffect(() => {
@@ -42,6 +43,10 @@ function App() {
       <Route path="/Investment" element={<Investment />}></Route>
       <Route path="/Identification" element={<Identification />}></Route>
       <Route path="/Payment" element={<Payment />}></Route>
+      <Route
+        path="/PaymentSuccessfull"
+        element={<PaymentSuccessfull />}
+      ></Route>
 
       <Route path="/Presale/Presale2" element={<Presale2 />}></Route>
       <Route path="/Presale/Presale2/Form1" element={<Form1 />}></Route>

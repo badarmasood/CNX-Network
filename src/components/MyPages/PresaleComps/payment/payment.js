@@ -6,9 +6,9 @@ import Visa from "../../../../images/visa.png";
 import "./investment.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+// import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+// import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+// import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const PresalePayment = () => {
   return (
@@ -82,60 +82,101 @@ const PresalePayment = () => {
                     >
                       Payment
                     </h3>
-                    <div style={{ padding: "24px 30px", width: "auto" }}>
-                      <Link to="/Presale/Presale2">
-                        {/* <img src="../../../../images/visa.png" /> */}
-
+                    <div
+                      class="d-flex flex-wrap"
+                      style={{ padding: "24px 30px" }}
+                    >
+                      <Link to="/PaymentSuccessfull">
                         <button
-                          class="btn   btn-shadow d-flex align-items-center "
+                          class="btn btn-shadow  mx-3 my-3"
                           type="submit"
-                          style={{ color: "black " }}
+                          style={{ color: "black ", width: "250px" }}
                         >
-                          {/* <FontAwesomeIcon
-                            icon={faTwitter}
-                            size="2x"
-                            color="black"
-                          /> */}
                           <img
                             src={Visa}
-                            class="img-fluid"
+                            class="img-fluid mr-3"
                             alt="W3Schools.com"
                             height="35px"
                             width="35px"
                           ></img>
-                          Continue{" "}
+                          <span class=" mr-5">Visa </span>
+
+                          <span style={{ marginLeft: "30px" }}> +</span>
+                        </button>
+                      </Link>
+                      <Link to="/PaymentSuccessfull">
+                        <button
+                          class="btn btn-shadow mx-3 my-3"
+                          type="submit"
+                          style={{ color: "black ", width: "250px" }}
+                        >
+                          <img
+                            src={Visa}
+                            class="img-fluid mr-3"
+                            alt="W3Schools.com"
+                            height="35px"
+                            width="35px"
+                          ></img>
+                          <span class=" mr-5">Bitpal</span>
+
+                          <span style={{ marginLeft: "20px" }}> +</span>
+                        </button>
+                      </Link>
+                      <Link to="/PaymentSuccessfull">
+                        <button
+                          class="btn btn-shadow mx-3 my-3"
+                          type="submit"
+                          style={{ color: "black ", width: "250px" }}
+                        >
+                          <img
+                            src={Visa}
+                            class="img-fluid mr-3"
+                            alt="W3Schools.com"
+                            height="35px"
+                            width="35px"
+                          ></img>
+                          <span class=" mr-2">Mastercard</span>
+
+                          <span style={{ marginLeft: "20px" }}> +</span>
+                        </button>
+                      </Link>
+                      <Link to="/PaymentSuccessfull">
+                        <button
+                          class="btn btn-shadow mx-3 my-3"
+                          type="submit"
+                          style={{ color: "black ", width: "250px" }}
+                        >
+                          <img
+                            src={Visa}
+                            class="img-fluid mr-3"
+                            alt="W3Schools.com"
+                            height="35px"
+                            width="35px"
+                          ></img>
+                          <span class=" mr-5">iDeal</span>
+
+                          <span style={{ marginLeft: "20px" }}> +</span>
+                        </button>
+                      </Link>
+                      <Link to="/PaymentSuccessfull">
+                        <button
+                          class="btn btn-shadow mx-3 my-3"
+                          type="submit"
+                          style={{ color: "black ", width: "250px" }}
+                        >
+                          <img
+                            src={Visa}
+                            class="img-fluid mr-3"
+                            alt="W3Schools.com"
+                            height="35px"
+                            width="35px"
+                          ></img>
+                          <span class=" mr-5">Paypal</span>
+
                           <span style={{ marginLeft: "20px" }}> +</span>
                         </button>
                       </Link>
                     </div>
-                    <form method="POST">
-                      <div class="form-row">
-                        <div class="name">Passport Frontside</div>
-                        <div class="value">
-                          <div class="input-group js-input-file d-flex align-items-center ">
-                            <input
-                              class="input-file"
-                              type="file"
-                              name="file_cv"
-                              id="file"
-                            />
-                            <label class="label--file" for="file">
-                              Upload file +
-                            </label>
-                            <span class="input-file__info">
-                              1 file(s) Uploaded
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="">
-                    <Link to="/Presale/Presale2">
-                      <button class="btn btn-primary" type="submit">
-                        Continue
-                      </button>
-                    </Link>
                   </div>
                 </div>
               </div>
