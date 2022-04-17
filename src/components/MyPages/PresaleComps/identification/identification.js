@@ -132,7 +132,7 @@ const PresaleIdentification = () => {
                               name="file_cv"
                               id="file"
                             />
-                            <label class="label--file" for="file">
+                            <label class=" label--file" for="file">
                               Upload file +
                             </label>
                             <span class="input-file__info">

@@ -25,6 +25,7 @@ import Investment from "./components/MyPages/PresaleComps/Investment/investment"
 import Identification from "./components/MyPages/PresaleComps/identification/identification";
 import Payment from "./components/MyPages/PresaleComps/payment/payment";
 import PaymentSuccessfull from "./components/MyPages/PresaleComps/paymentSuccessful/paymentSuccessfull";
+import Receipt from "./components/MyPages/PresaleComps/receipt/receipt";
 
 function App() {
   useEffect(() => {
@@ -47,6 +48,7 @@ function App() {
         path="/PaymentSuccessfull"
         element={<PaymentSuccessfull />}
       ></Route>
+      <Route path="/Receipt" element={<Receipt />}></Route>
 
       <Route path="/Presale/Presale2" element={<Presale2 />}></Route>
       <Route path="/Presale/Presale2/Form1" element={<Form1 />}></Route>

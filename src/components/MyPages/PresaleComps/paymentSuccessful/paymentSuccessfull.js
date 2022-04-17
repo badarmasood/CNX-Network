@@ -62,9 +62,9 @@ const PresalepaymentSuccessfull = () => {
                 </div>
               </Link>
               <div class="btn-toolbar my-4">
-                <Link to="/Presale/Presale2">
+                <Link to="/Receipt">
                   <button type="button" class="btn btn-secondary">
-                    Back
+                    Download Receipt
                   </button>
                 </Link>
               </div>
