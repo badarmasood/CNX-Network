@@ -128,12 +128,14 @@ const PresaleReceipt = () => {
                             >
                               package
                             </p>
+
                             <div class="col-md-4">
                               <div
                                 class="card border-secondary border border-2 mb-3 bg-dark p-3"
                                 style={{
-                                  maxWidth: "18rem",
-                                  minHeight: "300px",
+                                  maxWidth: "auto",
+
+                                  minHeight: "250px",
                                   position: "relative",
                                 }}
                               >
@@ -143,7 +145,7 @@ const PresaleReceipt = () => {
                                     border: "none",
                                   }}
                                 >
-                                  $ 100,-
+                                  <b>$ 100,-</b>
                                 </h1>
 
                                 <div
@@ -152,11 +154,15 @@ const PresaleReceipt = () => {
                                     border: "none",
                                   }}
                                 >
-                                  <h5 class="card-title ">Pack 1:</h5>
-                                  <p class="card-text ">
-                                    Free VPN for life time
+                                  <h5 class="card-title ">
+                                    <b>Pack 1:</b>
+                                  </h5>
+                                  <p class="card-text py-1">
+                                    <b>Free VPN for life time</b>
                                   </p>
-                                  <p class="card-text ">+10% for CNX-Miners</p>
+                                  <p class="card-text py-1">
+                                    <b>+10% for CNX-Miners</b>
+                                  </p>
                                 </div>
                                 <div
                                   class=" bg-transparent "

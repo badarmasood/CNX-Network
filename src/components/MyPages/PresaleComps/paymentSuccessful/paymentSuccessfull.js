@@ -30,10 +30,11 @@ const PresalepaymentSuccessfull = () => {
             <div class="col-md-4">
               <Link to="">
                 <div
-                  class="card border-secondary border border-2 mb-3 bg-dark"
+                  class="card border-secondary  border-2 mb-3 bg-dark"
                   style={{
-                    maxWidth: "18rem",
-                    minHeight: "300px",
+                    maxWidth: "auto",
+
+                    minHeight: "250px",
                     position: "relative",
                   }}
                 >
@@ -47,9 +48,15 @@ const PresalepaymentSuccessfull = () => {
                   </h1>
 
                   <div class="card-body text-success">
-                    <h5 class="card-title ">Pack 1:</h5>
-                    <p class="card-text ">Free VPN for life time</p>
-                    <p class="card-text ">+10% for CNX-Miners</p>
+                    <h5 class="card-title ">
+                      <b>Pack 1:</b>
+                    </h5>
+                    <p class="card-text py-1">
+                      <b>Free VPN for life time</b>
+                    </p>
+                    <p class="card-text py-1">
+                      <b>+10% for CNX-Miners</b>
+                    </p>
                   </div>
                   <div
                     class="card-footer bg-transparent "
@@ -57,19 +64,23 @@ const PresalepaymentSuccessfull = () => {
                       border: "none",
                     }}
                   >
-                    12.500 CNX
+                    <span class="  d-flex justify-content-between">
+                      <p>
+                        <b>12.500 CNX</b>
+                      </p>
+                    </span>
                   </div>
                 </div>
               </Link>
-              <div class="btn-toolbar my-4">
+              <div class=" my-4">
                 <Link to="/Receipt">
-                  <button type="button" class="btn btn-secondary">
+                  <button type="button" class="btn btn-secondary w-100  p-0 ">
                     Download Receipt
                   </button>
                 </Link>
               </div>
             </div>
-            <div class="col-md-8 ">
+            <div class="col-lg-8 col-md-10 ">
               <div class=" bg-dark">
                 <div class="card card-6">
                   <div class="card-body">

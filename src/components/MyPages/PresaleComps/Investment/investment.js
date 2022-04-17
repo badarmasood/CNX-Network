@@ -21,55 +21,51 @@ const PresaleInvestment = () => {
           </div>
           <div class="row w-100">
             <div class="col-lg-4 col-md-6">
-              <Link to="/Investment">
-                <div
-                  class="card border-secondary border-2  bg-dark"
-                  style={{
-                    maxWidth: "auto",
+              <div
+                class="card border-secondary border-2  bg-dark"
+                style={{
+                  maxWidth: "auto",
 
-                    minHeight: "250px",
-                    position: "relative",
+                  minHeight: "250px",
+                  position: "relative",
+                }}
+              >
+                <h1
+                  class="card-header bg-transparent  "
+                  style={{
+                    border: "none",
                   }}
                 >
-                  <h1
-                    class="card-header bg-transparent  "
-                    style={{
-                      border: "none",
-                    }}
-                  >
-                    <b>$ 100,-</b>
-                  </h1>
+                  <b>$ 100,-</b>
+                </h1>
 
-                  <div class="card-body text-success">
-                    <h5 class="card-title ">
-                      <b>Pack 1:</b>
-                    </h5>
-                    <p class="card-text py-1">
-                      <b>Free VPN for life time</b>
-                    </p>
-                    <p class="card-text py-1">
-                      <b>+10% for CNX-Miners</b>
-                    </p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent "
-                    style={{
-                      border: "none",
-                    }}
-                  >
-                    <span class="  d-flex justify-content-between">
-                      <p>
-                        <b>12.500 CNX</b>
-                      </p>
-                      <p>
-                        <b>Pick</b>
-                      </p>
-                    </span>
-                  </div>
+                <div class="card-body text-success">
+                  <h5 class="card-title ">
+                    <b>Pack 1:</b>
+                  </h5>
+                  <p class="card-text py-1">
+                    <b>Free VPN for life time</b>
+                  </p>
+                  <p class="card-text py-1">
+                    <b>+10% for CNX-Miners</b>
+                  </p>
                 </div>
-              </Link>
+                <div
+                  class="card-footer bg-transparent "
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <span class="  d-flex justify-content-between">
+                    <p>
+                      <b>12.500 CNX</b>
+                    </p>
+                  </span>
+                </div>
+              </div>
+
               <div class=" my-4">
-                <Link to="/Presale/Presale2">
+                <Link to="">
                   <button type="button" class="btn btn-secondary w-100  p-0 ">
                     Back
                   </button>

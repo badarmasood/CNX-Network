@@ -20,43 +20,52 @@ const PresaleIdentification = () => {
             </p>
           </div>
           <div class="row w-100">
-            <div class="col-md-4">
-              <Link to="">
-                <div
-                  class="card border-secondary border border-2 mb-3 bg-dark"
+            <div class="col-lg-4 col-md-6">
+              <div
+                class="card border-secondary border-2 mb-3 bg-dark"
+                style={{
+                  maxWidth: "auto",
+                  minHeight: "250px",
+                  position: "relative",
+                }}
+              >
+                <h1
+                  class="card-header bg-transparent  "
                   style={{
-                    maxWidth: "18rem",
-                    minHeight: "300px",
-                    position: "relative",
+                    border: "none",
                   }}
                 >
-                  <h1
-                    class="card-header bg-transparent  "
-                    style={{
-                      border: "none",
-                    }}
-                  >
-                    $ 100,-
-                  </h1>
+                  $ 100,-
+                </h1>
 
-                  <div class="card-body text-success">
-                    <h5 class="card-title ">Pack 1:</h5>
-                    <p class="card-text ">Free VPN for life time</p>
-                    <p class="card-text ">+10% for CNX-Miners</p>
-                  </div>
-                  <div
-                    class="card-footer bg-transparent "
-                    style={{
-                      border: "none",
-                    }}
-                  >
-                    12.500 CNX
-                  </div>
+                <div class="card-body text-success">
+                  <h5 class="card-title ">
+                    <b>Pack 1:</b>
+                  </h5>
+                  <p class="card-text py-1">
+                    <b>Free VPN for life time</b>
+                  </p>
+                  <p class="card-text py-1">
+                    <b>+10% for CNX-Miners</b>
+                  </p>
                 </div>
-              </Link>
-              <div class="btn-toolbar my-4">
-                <Link to="/Presale/Presale2">
-                  <button type="button" class="btn btn-secondary">
+                <div
+                  class="card-footer bg-transparent "
+                  style={{
+                    border: "none",
+                  }}
+                >
+                  <span class="  d-flex justify-content-between">
+                    <p>
+                      <b>12.500 CNX</b>
+                    </p>
+                  </span>
+                </div>
+              </div>
+
+              <div class=" my-4">
+                <Link to="">
+                  <button type="button" class="btn btn-secondary w-100  p-0">
                     Back
                   </button>
                 </Link>
