@@ -51,13 +51,12 @@ const SectionTwo = () => {
               data-aos-delay="200"
             >
               <div class="content">
-                <h1 class="fw-bolder text-whit my-2 ">
-                  First Wallet ICO Token Start Up
+                <h1 class="fw-bolder text-white my-2 " style={{ fontSize: 72 }}>
+                  <b> First Wallet ICO Token Start Up</b>
                 </h1>
-                <p class=" fw-normal text-white my-3">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-                  est, ut esse a labore aliquam beatae expedita. Blanditiis
-                  impedit numquam libero molestiae et fugit.
+                <p class=" fw-normal text-white my-3" style={{ fontSize: 24 }}>
+                  Send and recieve assets from one device to an other device,
+                  just that simple.
                 </p>
                 <div class="d-grid gap-3 d-flex justify-content-sm-center justify-content-xl-start align-items-center my-5">
                   <button

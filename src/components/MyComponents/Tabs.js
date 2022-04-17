@@ -74,88 +74,91 @@ export default function IconLabelTabs() {
   return (
     <>
       <Header />
-      <Box sx={{ width: "100%" }}>
-        <Box sx={{ borderBottom: 5, borderColor: "divider" }}>
-          <Tabs
-            value={value}
-            onChange={handleChange}
-            aria-label="icon label tabs example"
-            style={{
-              backgroundColor: "#1F1F1F",
-              top: "70%",
-            }}
-            centered
-          >
-            <Tab
-              icon={<PersonPinIcon sx={{ color: "white" }} />}
-              label="AdManager"
-              {...a11yProps(0)}
-              style={{ color: "white" }}
-            />
 
-            <Tab
-              icon={<GppBadIcon sx={{ color: "white" }} />}
-              label="CNX-Connect"
-              style={{ color: "white" }}
-              {...a11yProps(1)}
-            />
-            <Tab
-              label="CoinX"
-              {...a11yProps(2)}
-              icon={<PersonPinIcon sx={{ color: "white" }} />}
-              style={{ color: "white" }}
-            />
-            <Tab
-              label="MetaChat"
-              {...a11yProps(2)}
-              icon={<ForumIcon sx={{ color: "white" }} />}
-              style={{ color: "white" }}
-            />
-            <Tab
-              label="Node.js"
-              {...a11yProps(2)}
-              icon={<JavascriptIcon sx={{ color: "white" }} />}
-              style={{ color: "white" }}
-            />
-            <Tab
-              label="VPN Connection"
-              {...a11yProps(2)}
-              icon={<VpnLockIcon sx={{ color: "white" }} />}
-              style={{ color: "white" }}
-            />
+      <Box>
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          aria-label="icon label tabs example"
+          style={{
+            backgroundColor: "#1F1F1F",
+            top: "70%",
+            left: "50%",
+          }}
+          centered
+          // variant="scrollable"
+          // scrollButtons={true}
+          // allowScrollButtonsMobile
+        >
+          <Tab
+            icon={<PersonPinIcon sx={{ color: "white" }} />}
+            label="AdManager"
+            {...a11yProps(0)}
+            style={{ color: "white" }}
+          />
 
-            <Tab
-              label="WalletX"
-              {...a11yProps(2)}
-              icon={<AccountBalanceWalletIcon sx={{ color: "white" }} />}
-              style={{ color: "white" }}
-            />
-          </Tabs>
-        </Box>
+          <Tab
+            icon={<GppBadIcon sx={{ color: "white" }} />}
+            label="CNX-Connect"
+            style={{ color: "white" }}
+            {...a11yProps(1)}
+          />
+          <Tab
+            label="CoinX"
+            {...a11yProps(2)}
+            icon={<PersonPinIcon sx={{ color: "white" }} />}
+            style={{ color: "white" }}
+          />
+          <Tab
+            label="MetaChat"
+            {...a11yProps(2)}
+            icon={<ForumIcon sx={{ color: "white" }} />}
+            style={{ color: "white" }}
+          />
+          <Tab
+            label="Node.js"
+            {...a11yProps(2)}
+            icon={<JavascriptIcon sx={{ color: "white" }} />}
+            style={{ color: "white" }}
+          />
+          <Tab
+            label="VPN Connection"
+            {...a11yProps(2)}
+            icon={<VpnLockIcon sx={{ color: "white" }} />}
+            style={{ color: "white" }}
+          />
 
-        <TabPanel value={value} index={0}>
-          <AdManager />
-        </TabPanel>
-
-        <TabPanel value={value} index={1}>
-          <CnxConnect />
-        </TabPanel>
-        <TabPanel value={value} index={2}>
-          <CoinX />
-        </TabPanel>
-        <TabPanel value={value} index={3}>
-          <MetaChat />
-        </TabPanel>
-        <TabPanel value={value} index={4}>
-          <NodeJS />
-        </TabPanel>
-        <TabPanel value={value} index={5}>
-          <VPN />
-        </TabPanel>
-        <TabPanel value={value} index={6}>
-          <WalletX />
-        </TabPanel>
+          <Tab
+            label="WalletX"
+            {...a11yProps(2)}
+            icon={<AccountBalanceWalletIcon sx={{ color: "white" }} />}
+            style={{ color: "white" }}
+          />
+        </Tabs>
       </Box>
+
+      <TabPanel value={value} index={0}>
+        <AdManager />
+      </TabPanel>
+
+      <TabPanel value={value} index={1}>
+        <CnxConnect />
+      </TabPanel>
+      <TabPanel value={value} index={2}>
+        <CoinX />
+      </TabPanel>
+      <TabPanel value={value} index={3}>
+        <MetaChat />
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        <NodeJS />
+      </TabPanel>
+      <TabPanel value={value} index={5}>
+        <VPN />
+      </TabPanel>
+      <TabPanel value={value} index={6}>
+        <WalletX />
+      </TabPanel>
     </>
   );
 }

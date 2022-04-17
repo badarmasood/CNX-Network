@@ -13,46 +13,55 @@ const CnxConnect = () => {
           class=" bg-image d-flex justify-content-center "
           style={{
             backgroundImage: `url(${CnxConnectImg})`,
-            height: "90vh",
+            height: "100vh",
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
+            width: "100%",
+            position: "relative",
           }}
         >
-          <div class=" mt-5 ">
-            <div class="row ">
-              <div class="col-lg-12 text-center ">
-                <h1
-                  class="text-dark "
+          <div class="container">
+            <div class=" d-flex justify-content-center ">
+              <div class="row my-2">
+                <div
+                  class="col "
                   style={{
-                    fontWeight: "bold",
-                    fontSize: "5rem",
+                    position: "relative",
                   }}
                 >
-                  CNX-Connect
-                </h1>
-                <p
-                  class="text-dark"
-                  style={{
-                    fontWeight: "normal",
-                    fontSize: "1.5rem",
-                  }}
-                >
-                  One account. For all your daily things.
-                </p>
-                <div class="btn-toolbar justify-content-center">
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-lg primary rounded-pill px-4 mx-3  "
+                  <h1
+                    class="fw-bolder text-dark text-center"
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "4rem",
+                    }}
                   >
-                    Download Now
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-light  btn-lg rounded-pill px-4  mx-3"
+                    CNX-Connect
+                  </h1>
+                  <p
+                    class="text-dark text-center  mb-2"
+                    style={{
+                      fontWeight: "normal",
+                      fontSize: "1.5rem",
+                    }}
                   >
-                    More information
-                  </button>
+                    One account. For all your daily things.
+                  </p>
+                  <div class=" d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-primary  primary rounded-pill px-4 mx-3  "
+                    >
+                      Download Now
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-light MoreBtn  btn-lg rounded-pill px-4  mx-3"
+                    >
+                      More information
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

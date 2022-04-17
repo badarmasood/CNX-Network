@@ -18,43 +18,51 @@ const CoinX = () => {
             backgroundSize: "cover",
             backgroundPosition: "top",
             backgroundRepeat: "no-repeat",
+            width: "100%",
             position: "relative",
           }}
         >
-          <div class=" mt-5 ">
-            <div class="row ">
-              <div class="col-lg-12 text-center ">
-                <h1
-                  class="fw-bolder text-dark"
+          <div class="container">
+            <div class=" d-flex justify-content-center ">
+              <div class="row my-2">
+                <div
+                  class="col "
                   style={{
-                    fontWeight: "bold",
-                    fontSize: "5rem",
+                    position: "relative",
                   }}
                 >
-                  CoinX
-                </h1>
-                <p
-                  class="text-dark"
-                  style={{
-                    fontWeight: "normal",
-                    fontSize: "1.5rem",
-                  }}
-                >
-                  The Future of Crypto
-                </p>
-                <div class="btn-toolbar justify-content-center">
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-lg primary rounded-pill px-4 mx-3  "
+                  <h1
+                    class="fw-bolder text-dark text-center"
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "4rem",
+                    }}
                   >
-                    Download Now
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-light  btn-lg rounded-pill px-4  mx-3"
+                    CoinX
+                  </h1>
+                  <p
+                    class="text-dark text-center  mb-2"
+                    style={{
+                      fontWeight: "normal",
+                      fontSize: "1.5rem",
+                    }}
                   >
-                    More information
-                  </button>
+                    The Future of Crypto
+                  </p>
+                  <div class="d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-primary  primary rounded-pill px-4 mx-3  "
+                    >
+                      Download Now
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-light MoreBtn btn-lg rounded-pill px-4  mx-3"
+                    >
+                      More information
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -96,15 +104,12 @@ const CoinX = () => {
             >
               <div class="content">
                 <h1
-                  class="fw-bolder text-white display-2 my-2 "
-                  style={{
-                    fontWeight: "bold",
-                    fontSize: "6rem",
-                  }}
+                  class="fw-bolder text-white  my-2 "
+                  style={{ fontSize: 72 }}
                 >
-                  The 24K CNX Golden CoinX
+                  <b>The 24K CNX Golden CoinX</b>
                 </h1>
-                <p class="lead fw-normal text-white my-3">
+                <p class="fw-normal text-white my-3" style={{ fontSize: 24 }}>
                   Invest enough in the CNX-Network and receive this limited
                   coin.
                 </p>
@@ -125,7 +130,6 @@ const CoinX = () => {
               data-aos-delay="200"
             >
               <img src={GoldCoinX} class="img-fluid" alt="W3Schools.com"></img>
-              {/* <img src="./images" class="img-fluid" alt="" /> */}
             </div>
           </div>
         </div>

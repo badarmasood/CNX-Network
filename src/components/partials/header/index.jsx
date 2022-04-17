@@ -54,13 +54,6 @@ export default function Header() {
                 Utility Network
               </NavLink>
             </li>
-
-            {/* <li>Home</li>
-            <li>Whitepaper</li>
-            <li>Blockchain</li>
-            <li>Team</li>
-            <li>Pre-sale</li>*/}
-            {/* <li className="btn">Utility Network</li> */}
           </ul>
           <div className="toggle-box">
             <button

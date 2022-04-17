@@ -17,43 +17,51 @@ const WalletX = () => {
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
-            // position: "relative",
+            width: "100%",
+            position: "relative",
           }}
         >
-          <div class=" mt-5 ">
-            <div class="row ">
-              <div class="col-lg-12 text-center ">
-                <h1
-                  class="fw-bolder text-dark"
+          <div class="container">
+            <div class=" d-flex justify-content-center ">
+              <div class="row my-2">
+                <div
+                  class="col "
                   style={{
-                    fontWeight: "bold",
-                    fontSize: "5rem",
+                    position: "relative",
                   }}
                 >
-                  WalletX
-                </h1>
-                <p
-                  class="lead text-dark"
-                  style={{
-                    fontWeight: "normal",
-                    fontSize: "1.5rem",
-                  }}
-                >
-                  Trade the future
-                </p>
-                <div class="btn-toolbar justify-content-center">
-                  <button
-                    type="button"
-                    class="btn btn-primary btn-lg primary rounded-pill px-4 mx-3  "
+                  <h1
+                    class="fw-bolder text-dark text-center"
+                    style={{
+                      fontWeight: "bold",
+                      fontSize: "4rem",
+                    }}
                   >
-                    Download Now
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-light  btn-lg rounded-pill px-4  mx-3"
+                    WalletX
+                  </h1>
+                  <p
+                    class="text-dark text-center  mb-2"
+                    style={{
+                      fontWeight: "normal",
+                      fontSize: "1.5rem",
+                    }}
                   >
-                    More information
-                  </button>
+                    Trade the future
+                  </p>
+                  <div class=" d-flex justify-content-center">
+                    <button
+                      type="button"
+                      class="btn btn-primary  primary rounded-pill px-4 mx-3  "
+                    >
+                      Download Now
+                    </button>
+                    <button
+                      type="button"
+                      class="btn btn-light  MoreBtn btn-lg rounded-pill px-4  mx-3"
+                    >
+                      More information
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>
