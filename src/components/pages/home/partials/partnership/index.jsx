@@ -42,19 +42,19 @@ export default function Partnership() {
                       src={Visa}
                       class="m-2"
                       alt="W3Schools.com"
-                      width={"33%"}
+                      width={"28%"}
                     ></img>
                     <img
                       src={Mastercard}
                       class="m-2"
                       alt="W3Schools.com"
-                      width={"33%"}
+                      width={"28%"}
                     ></img>
                     <img
                       src={Bank}
                       class="my-2"
                       alt="W3Schools.com"
-                      width={"70%"}
+                      width={"60%"}
                     ></img>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ export default function Partnership() {
                       src={Sigmaworx}
                       class="m-2"
                       alt="W3Schools.com"
-                      width={"90%"}
+                      width={"85%"}
                     ></img>
                     <img
                       src={YahooN}
@@ -88,24 +88,24 @@ export default function Partnership() {
                       alt="W3Schools.com"
                       width={"30%"}
                     ></img>
-                    {/* <img
-                      src={Nasdaq}
-                      class="m-2"
-                      alt="W3Schools.com"
-                      width={"15%"}
-                    ></img> */}
 
                     <img
                       src={Marketwatch}
-                      class="my-2"
+                      class="m-2"
                       alt="W3Schools.com"
-                      width={"45%"}
+                      width={"40%"}
                     ></img>
                     <img
                       src={YahooF}
                       class="m-2"
                       alt="W3Schools.com"
-                      width={"27%"}
+                      width={"20%"}
+                    ></img>
+                    <img
+                      src={Nasdaq}
+                      class="m-2"
+                      alt="W3Schools.com"
+                      width={"20%"}
                     ></img>
                   </div>
                 </div>
@@ -118,7 +118,7 @@ export default function Partnership() {
                       src={Binance}
                       class="m-2 p-3"
                       alt="W3Schools.com"
-                      width={"100%"}
+                      width={"65%"}
                     ></img>
                   </div>
                 </div>
