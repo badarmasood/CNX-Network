@@ -11,11 +11,13 @@ import DecoLeftThumb from "../../../assets/hero-deco-left.png";
 import DecoRightThumb from "../../../assets/hero-deco-right.png";
 import Footer from "../../partials/footer";
 import "./index.scss";
+import NavBar from "../../../components2/navBar/NavBar";
 
 export default function Home() {
   return (
     <>
       <Header />
+
       <div className="hero-section">
         <img src={DecoLeftThumb} className="deco deco-left" alt="" />
         <img src={DecoRightThumb} className="deco deco-right" alt="" />

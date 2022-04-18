@@ -8,6 +8,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 import Header from "../partials/header";
+import Presale2 from "../../containers/preSale/preSale";
 
 const Presale1 = () => {
   return (
@@ -271,7 +272,7 @@ const Presale = () => {
   return (
     <>
       <Header />
-      <Presale1 />
+      <Presale2 />
     </>
   );
 };

@@ -31,6 +31,7 @@ import NodeJS from "../MyPages/TabPages/NodeJS";
 import VPN from "../MyPages/TabPages/VPN";
 import WalletX from "../MyPages/TabPages/WalletX";
 
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -73,6 +74,7 @@ export default function IconLabelTabs() {
 
   return (
     <>
+      
       <Header />
 
       <Box>

@@ -62,3 +62,44 @@ function App() {
 }
 
 export default App;
+
+// import React, { useEffect } from "react";
+
+// import Home from "./components/pages/home";
+// import Blockchain from "./components/MyPages/Blockchain";
+// import Whitepaper from "./components/MyPages/Whitepaper";
+// import Team from "./components/MyPages/Team";
+
+// import { Route, Routes } from "react-router";
+
+// import AOS from "aos";
+// import "aos/dist/aos.css";
+// import "swiper/swiper-bundle.min.css";
+// import "swiper/swiper.min.css";
+// import "./App.scss";
+// import Presale from "./components/MyPages/Presale";
+// import Presale2 from "./components/MyPages/Presale2";
+// import Form1 from "./components/MyComponents/Forms/Form1";
+// import Form2 from "./components/MyComponents/Forms/Form2";
+// import Form3 from "./components/MyComponents/Forms/Form3";
+// import Form4 from "./components/MyComponents/Forms/Form4";
+
+// import IconLabelTabs from "./components/MyComponents/Tabs";
+
+// import Investment from "./components/MyPages/PresaleComps/Investment/investment";
+// import Identification from "./components/MyPages/PresaleComps/identification/identification";
+// import Payment from "./components/MyPages/PresaleComps/payment/payment";
+// import PaymentSuccessfull from "./components/MyPages/PresaleComps/paymentSuccessful/paymentSuccessfull";
+// import Receipt from "./components/MyPages/PresaleComps/receipt/receipt";
+// import TabBar from "./TabBar";
+// function App() {
+//   useEffect(() => {
+//     AOS.init({
+//       disable: "mobile",
+//     });
+//     AOS.refresh();
+//   }, []);
+//   return <TabBar />;
+// }
+
+// export default App;
