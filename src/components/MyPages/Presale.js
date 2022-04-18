@@ -14,7 +14,7 @@ const Presale1 = () => {
     <>
       <section>
         <div class="container">
-          <div class=" py-3  ">
+          <div class=" py-3  " data-aos="fade-up" data-aos-delay="100">
             <h3 class=" text-white">
               <b>Become an investor. The pre-sale is live.</b>
             </h3>
@@ -25,11 +25,13 @@ const Presale1 = () => {
               become the biggest.
             </p>
           </div>
-          <div class="row w-100">
-            <div class="col-lg-3 col-md-6">
+          <div class="row w-100" data-aos="fade-up">
+            <div class="col-lg-3 col-md-6 ">
               <Link to="/Investment">
                 <div
                   class="card cardhover border-2 mb-3 bg-dark"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
                   style={{
                     maxWidth: "auto",
 
@@ -75,7 +77,11 @@ const Presale1 = () => {
                   </div>
                 </div>
               </Link>
-              <div class=" my-4">
+              <div
+                class=" my-4"
+                data-aos="slide-out-right"
+                data-aos-delay="300"
+              >
                 <Link to="/Presale/Presale2">
                   <button type="button" class="btn btn-secondary w-100  p-0 ">
                     Custom price Investment
@@ -83,7 +89,11 @@ const Presale1 = () => {
                 </Link>
               </div>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="300"
+            >
               <Link to="/Investment">
                 <div
                   class="card cardhover border-2 mb-3 bg-dark"
@@ -136,7 +146,11 @@ const Presale1 = () => {
                 </div>
               </Link>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="400"
+            >
               <Link to="/Investment">
                 <div
                   class="card cardhover border-2 mb-3 bg-dark"
@@ -190,7 +204,11 @@ const Presale1 = () => {
                 </div>
               </Link>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div
+              class="col-lg-3 col-md-6"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
               <Link to="/Investment">
                 <div
                   class="card cardhover border-2 mb-3 bg-dark"

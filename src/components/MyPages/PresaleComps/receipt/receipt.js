@@ -7,13 +7,17 @@ const PresaleReceipt = () => {
   return (
     <>
       <section>
-        <div class="container  ">
-          <div class=" py-3 my-3  d-flex justify-content-center ">
+        <div class="container  " data-aos="fade-up">
+          <div
+            class=" py-3 my-3  d-flex justify-content-center "
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             <h2 class="text-white  ">Receipt</h2>
           </div>
           <div class=" d-flex justify-content-center">
             <div class="">
-              <div class=" col-md-12  ">
+              <div class=" col-md-12  " data-aos="fade-up" data-aos-delay="300">
                 <div class=" bg-dark ">
                   <div class="card card-6">
                     <div class="card-body">

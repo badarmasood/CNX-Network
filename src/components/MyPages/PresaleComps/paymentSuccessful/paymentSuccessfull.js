@@ -15,7 +15,7 @@ const PresalepaymentSuccessfull = () => {
     <>
       <section>
         <div class="container">
-          <div class=" py-3 ">
+          <div class=" py-3 " data-aos="fade-up" data-aos-delay="100">
             <h3 class="text-white">
               Become an investor. The pre-sale is live.
             </h3>
@@ -26,11 +26,13 @@ const PresalepaymentSuccessfull = () => {
               become the biggest.
             </p>
           </div>
-          <div class="row w-100">
+          <div class="row w-100" data-aos="fade-up">
             <div class="col-md-4">
               <Link to="">
                 <div
                   class="card border-secondary  border-2 mb-3 bg-dark"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
                   style={{
                     maxWidth: "auto",
 
@@ -72,7 +74,11 @@ const PresalepaymentSuccessfull = () => {
                   </div>
                 </div>
               </Link>
-              <div class=" my-4">
+              <div
+                class=" my-4"
+                data-aos="slide-out-right"
+                data-aos-delay="300"
+              >
                 <Link to="/Receipt">
                   <button type="button" class="btn btn-secondary w-100  p-0 ">
                     Download Receipt
@@ -80,7 +86,11 @@ const PresalepaymentSuccessfull = () => {
                 </Link>
               </div>
             </div>
-            <div class="col-lg-8 col-md-10 ">
+            <div
+              class="col-lg-8 col-md-10 "
+              data-aos="fade-up"
+              data-aos-delay="350"
+            >
               <div class=" bg-dark">
                 <div class="card card-6">
                   <div class="card-body">
