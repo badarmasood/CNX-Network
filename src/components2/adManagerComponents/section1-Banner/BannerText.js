@@ -1,5 +1,5 @@
 import React from "react";
-// import "../../../assests/css";
+import "../../../assests2/css";
 
 const BannerText = () => {
   return (

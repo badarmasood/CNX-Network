@@ -54,7 +54,7 @@ export default function Header() {
                 </NavLink>
               </li>
               <li className="btn">
-                <NavLink class="nav-link " to="/Utilitynetwork">
+                <NavLink class="nav-link " to="/cnx_network/admanager">
                   Utility Network
                 </NavLink>
               </li>

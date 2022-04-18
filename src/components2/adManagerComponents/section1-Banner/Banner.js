@@ -19,12 +19,12 @@ const Banner = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-12">
-            <div className="banner-wraper">
+            <div className="banner-wraper ">
               <BannnerText />
               <img
                 src={banner3}
                 alt=""
-                className="img-fluid manager-banner-mockup"
+                className="img-fluid manager-banner-mockup d-flex justify-content-center"
               />
             </div>
           </div>

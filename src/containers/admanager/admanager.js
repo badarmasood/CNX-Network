@@ -7,9 +7,15 @@ import Advertisement from "../../components2/adManagerComponents/section5-Advert
 import MonetizeAds from "../../components2/adManagerComponents/section6-MonetizeAds/MonetizeAds";
 import Footer from "../../components2/Footer/Footer";
 
+import Header from "../../components/partials/header";
+import NavBar from "../../components2/navBar/NavBar";
+// import Footer from "../../components/partials/footer";
 const admanager = () => {
   return (
     <>
+      <Header />
+      <NavBar />
+
       <Banners />
       <Monetise />
       <Advertise />

@@ -1,7 +1,15 @@
-import React from "react";
-// import "../../assests2/css/presale.css";
+import React, { useState } from "react";
 import "../../assests2/css/presale.css";
+import axios from "axios";
 const Presale = () => {
+  const [email, setEmail] = useState("");
+  const onSubmit = (e) => {
+    const res = axios
+      .post("http://localhost:3001/v1/userEmail/", {
+        email: email,
+      })
+      .then((response) => response.data);
+  };
   return (
     <section className="presale-sec">
       <div className="container">
@@ -19,8 +27,14 @@ const Presale = () => {
                 <form action="">
                   <div className="form-group">
                     <label>Email</label>
-                    <input type="text" className="form-control" />
-                    <button className="btn_submit">Subscribe</button>
+                    <input
+                      type="text"
+                      className="form-control"
+                      onChange={(e) => setEmail(e.currentTarget.value)}
+                    />
+                    <button className="btn_submit" onClick={onSubmit}>
+                      Subscribe
+                    </button>
                   </div>
                 </form>
               </div>

@@ -28,7 +28,8 @@ const SubNavBar = () => {
   let location = useLocation();
 
   return (
-    <section className="product-sec manager-sec">
+    // <section className="product-sec manager-sec">
+    <section className=" bg-dark py-4 mt-2">
       <div className="container">
         <div className="row">
           <div className="col-md-12">

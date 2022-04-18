@@ -6,9 +6,14 @@ import Investor from "../../components2/coinXComponent/section4-Investor/Investo
 import DeFi from "../../components2/coinXComponent/section5-DeFi/DeFi";
 import Pay from "../../components2/coinXComponent/section6-Pay/Pay";
 import Footer from "../../components2/Footer/Footer";
+import Header from "../../components/partials/header";
+import NavBar from "../../components2/navBar/NavBar";
+// import Footer from "../../components/partials/footer";
 const coinX = () => {
   return (
     <>
+      <Header />
+      <NavBar />
       <Banner />
       <Utility />
       <Investment />

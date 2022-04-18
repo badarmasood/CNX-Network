@@ -7,9 +7,14 @@ import Future from "../../components2/cnxConnectComponent/section5-Future/Future
 import Security from "../../components2/cnxConnectComponent/section7-Security/Security";
 import Footer from "../../components2/Footer/Footer";
 
+import Header from "../../components/partials/header";
+import NavBar from "../../components2/navBar/NavBar";
+// import Footer from "../../components/partials/footer";
 const cnxConnect = () => {
   return (
     <>
+      <Header />
+      <NavBar />
       <Banner />
       <Secure />
       <Login />

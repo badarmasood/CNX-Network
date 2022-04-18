@@ -30,7 +30,7 @@ import MetaChat from "../MyPages/TabPages/MetaChat";
 import NodeJS from "../MyPages/TabPages/NodeJS";
 import VPN from "../MyPages/TabPages/VPN";
 import WalletX from "../MyPages/TabPages/WalletX";
-
+import NavBar from "../../components2/navBar/NavBar";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -74,10 +74,10 @@ export default function IconLabelTabs() {
 
   return (
     <>
-      
       <Header />
+      <NavBar />
 
-      <Box>
+      {/* <Box>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -160,7 +160,7 @@ export default function IconLabelTabs() {
       </TabPanel>
       <TabPanel value={value} index={6}>
         <WalletX />
-      </TabPanel>
+      </TabPanel> */}
     </>
   );
 }

@@ -83,12 +83,12 @@ const Team = () => {
   return (
     <>
       <Header />
-      <CEOTeam />
+      {/* <CEOTeam />
       <CoreTeam />
       <CoreTeam />
       <CoreTeam />
       <CoreTeam />
-      <Footer />
+      <Footer /> */}
     </>
   );
 };
