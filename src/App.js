@@ -70,7 +70,7 @@ function App() {
       <Route path="/Presale/Presale2/Form2" element={<Form2 />}></Route>
       <Route path="/Presale/Presale2/Form3" element={<Form3 />}></Route>
       <Route path="/Presale/Presale2/Form4" element={<Form4 />}></Route>
-      <Route path="/Utilitynetwork" element={<IconLabelTabs />}></Route>
+      {/* <Route path="/Utilitynetwork" element={<IconLabelTabs />}></Route> */}
 
       {/* The new ones */}
       <Route
@@ -78,7 +78,7 @@ function App() {
         element={<Navigate replace to="/cnx_network/admanager" />}
       />
 
-      <Route exact path="/cnx_network/admanager" element={<Admanager />} />
+      {/* <Route exact path="/cnx_network/admanager" element={<Admanager />} />
       <Route exact path="/cnx_network/vpn" element={<Vpn />} />
       <Route exact path="/cnx_network/coinx" element={<CoinX />} />
       <Route exact path="/cnx_network/metachat" element={<MetaChat />} />
@@ -86,7 +86,7 @@ function App() {
       <Route exact path="/cnx_network/presale" element={<PreSale />} />
       <Route exact path="/cnx_network/creditcard" element={<CreditCard />} />
       <Route exact path="/cnx_network/cnxconnect" element={<CnxConnect />} />
-      <Route exact path="/cnx_network/walletx" element={<WalletX />} />
+      <Route exact path="/cnx_network/walletx" element={<WalletX />} /> */}
     </Routes>
   );
 }
