@@ -29,10 +29,10 @@ const SubNavBar = () => {
 
   return (
     // <section className="product-sec manager-sec">
-    <section className=" bg-dark py-4 mt-2">
-      <div className="container">
-        <div className="row">
-          <div className="col-md-12">
+    <section className=" bg-dark py-4 mt-2 ">
+      <div className="container   ">
+        <div className="row ">
+          <div className="col-md-12 overflow-auto ">
             <div
               className={`product-wraper ${
                 location.pathname === "/cnx_network/admanager"

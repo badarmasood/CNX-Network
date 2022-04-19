@@ -5,7 +5,7 @@ const Presale = () => {
   const [email, setEmail] = useState("");
   const onSubmit = (e) => {
     const res = axios
-      .post("http://localhost:3001/v1/userEmail/", {
+      .post("https://85.214.122.140:3001/v1/userEmail/", {
         email: email,
       })
       .then((response) => response.data);

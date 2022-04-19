@@ -38,6 +38,7 @@ import CnxConnect from "./containers/cnxConnect/cnxConnect";
 import WalletX from "./containers/walletX/walletX";
 import PreSale from "./containers/preSale/preSale";
 import CreditCard from "./containers/creditCard/creditCard";
+import Cooperations from "./components/MyPages/Cooperations";
 
 function App() {
   useEffect(() => {
@@ -50,6 +51,7 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Home />}></Route>
       <Route path="/Whitepaper" element={<Whitepaper />}></Route>
+      <Route path="/Cooperations" element={<Cooperations />}></Route>
       <Route path="/Blockchain" element={<Blockchain />}></Route>
       <Route path="/Team" element={<Team />}></Route>
       <Route path="/Presale" element={<Presale />}></Route>

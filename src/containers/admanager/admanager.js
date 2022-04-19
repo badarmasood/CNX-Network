@@ -16,7 +16,7 @@ const admanager = () => {
       <Header />
       <NavBar />
 
-      <Banners />
+      <Banners zindex={0} />
       <Monetise />
       <Advertise />
       <Earn />

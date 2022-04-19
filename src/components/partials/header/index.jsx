@@ -14,10 +14,11 @@ export default function Header() {
   return (
     <>
       {/* <Navbar /> */}
+      {/* <header className="navbar-static-top"> */}
 
-      <header className="FixNav">
+      <header className="FixNav ">
         <Container>
-          <div className="content ">
+          <div className="content  ">
             <div className="logo-box">
               <img src={Logo} alt="CNX-Network" />
               <span>CNX-Network</span>
@@ -39,15 +40,20 @@ export default function Header() {
                 </NavLink>
               </li>
               <li class="nav-item">
+                <NavLink class="nav-link" to="/Cooperations">
+                  Cooperations
+                </NavLink>
+              </li>
+              {/*<li class="nav-item">
                 <NavLink class="nav-link" to="/Blockchain">
                   Blockchain
                 </NavLink>
               </li>
-              <li class="nav-item">
+               <li class="nav-item">
                 <NavLink class="nav-link" to="/Team">
                   Team
                 </NavLink>
-              </li>
+              </li> */}
               <li class="nav-item">
                 <NavLink class="nav-link " to="/Presale">
                   Pre-sale

@@ -16,10 +16,10 @@ const NavBar = () => {
 
   return (
     <>
-      <SubHearder />
+      {/* <SubHearder /> */}
 
-      {/* <header>
-        <section className="nav-wraper default">
+      <header class="p-0">
+        {/* <section className="nav-wraper default">
           <div className="container">
             <div className="row">
               <div className="col-lg-12">
@@ -207,9 +207,9 @@ const NavBar = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         {location.pathname == "/cnx_network/presale" ? "" : <SubHearder />}
-      </header> */}
+      </header>
     </>
   );
 };
